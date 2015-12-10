@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.3.9
+3 info using node@v5.0.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle angular2-tour-of-heroes@1.0.0~prestart: angular2-tour-of-heroes@1.0.0
+6 silly lifecycle angular2-tour-of-heroes@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle angular2-tour-of-heroes@1.0.0~start: angular2-tour-of-heroes@1.0.0
+8 verbose lifecycle angular2-tour-of-heroes@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle angular2-tour-of-heroes@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/andrewpei/Documents/Development Learning/angular2-tour-of-heroes/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/andrewpei/.rvm/bin
+10 verbose lifecycle angular2-tour-of-heroes@1.0.0~start: CWD: /Users/andrewpei/Documents/Development Learning/angular2-tour-of-heroes
+11 silly lifecycle angular2-tour-of-heroes@1.0.0~start: Args: [ '-c', 'npm-exec live-server --open=src' ]
+12 info lifecycle angular2-tour-of-heroes@1.0.0~start: Failed to exec start script
+13 verbose stack Error: angular2-tour-of-heroes@1.0.0 start: `npm-exec live-server --open=src`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+13 verbose stack     at emitTwo (events.js:87:13)
+13 verbose stack     at ChildProcess.emit (events.js:172:7)
+13 verbose stack     at maybeClose (internal/child_process.js:818:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid angular2-tour-of-heroes@1.0.0
+15 verbose cwd /Users/andrewpei/Documents/Development Learning/angular2-tour-of-heroes
+16 error Darwin 15.0.0
+17 error argv "/usr/local/Cellar/node/5.0.0/bin/node" "/usr/local/bin/npm" "start"
+18 error node v5.0.0
+19 error npm  v3.3.9
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error angular2-tour-of-heroes@1.0.0 start: `npm-exec live-server --open=src`
+24 error spawn ENOENT
+25 error Failed at the angular2-tour-of-heroes@1.0.0 start script 'npm-exec live-server --open=src'.
+25 error This is most likely a problem with the angular2-tour-of-heroes package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     npm-exec live-server --open=src
+25 error You can get their info via:
+25 error     npm owner ls angular2-tour-of-heroes
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
